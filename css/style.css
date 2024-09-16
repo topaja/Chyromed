@@ -351,7 +351,7 @@ button[type="submit"]:hover {
   .container
   .row
   .row:first-child
-  div:last-child.nav-options:hover::after {
+  div:last-child:hover::after {
   content: "Patient Monitoring Systems";
   color: white;
   text-align: center;
