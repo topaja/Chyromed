@@ -779,3 +779,19 @@ button[type="submit"]:hover {
     white-space: nowrap;
   }
 }
+
+@media (max-width:370px){
+    /* newsletter */
+  button[type="submit"] {
+    font-size: 13px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    letter-spacing: 1.5px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
+    input {
+    padding: 10px 50px;
+  }
+}
